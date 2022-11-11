@@ -1,5 +1,7 @@
 # Сортировка выбором
 
+![image](https://github.com/kriper2OO3/Lab2/blob/main/Selection-Sort-Animation.gif)
+
 ### Алгоритм сортировки:
 ```py
 def my_sort(lst):
