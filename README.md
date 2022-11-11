@@ -1,6 +1,7 @@
 # Сортировка выбором
 
-
+### Алгоритм сортировки:
+```py
 def my_sort(lst):
     for i in range(len(lst), 1, -1):
         min = -999999999
@@ -9,3 +10,4 @@ def my_sort(lst):
                 min, t = lst[j], j
         lst[i - 1], lst[t] = lst[t], lst[i - 1]
     return(lst)
+```
