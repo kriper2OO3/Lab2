@@ -4,7 +4,7 @@
 
 ### Алгоритм сортировки:
 ```py
-def my_sort(lst):
+def sort_select(lst):
     for i in range(len(lst), 1, -1):
         min = -999999999
         for j in range(i):
